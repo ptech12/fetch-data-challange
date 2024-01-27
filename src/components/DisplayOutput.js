@@ -1,9 +1,13 @@
 
 import React from 'react'
 
-const DisplayOutput = () => {
+const DisplayOutput = ({ data }) => {
   return (
-    <div>DisplayOutput</div>
+    <div>
+      {
+        data
+      }
+    </div>
   )
 }
 
