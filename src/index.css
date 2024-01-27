@@ -3,3 +3,27 @@
   margin: 0;
   padding: 0;
 }
+
+.buttons{
+  display: flex;
+  /* width: 100px; */
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.buttons button{
+  flex: 1;
+  height: 40px;
+  font-size: 1.2rem;
+  border-right: 1px solid black;
+  border-bottom: none;
+}
+
+.buttons button:hover,
+.buttons button:focus{
+  background-color: #000;
+  color: #eee;
+}
+
