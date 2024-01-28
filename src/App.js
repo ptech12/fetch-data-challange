@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Form from "./components/Form";
-
+import List from "./components/List";
 
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
       try{
         const response = await fetch(`${BASE_URL}${req}`);
         const responseData = await response.json();
+        console.log(responseData);
         setData(responseData)
       }catch (err){
         console.log(err);
@@ -27,6 +28,7 @@ function App() {
   return (
     <div className="App">
       <Form req={req} setReq={setReq}/>
+      <List data={data} />
 
     </div>
   );
