@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.7](https://github.com/ptech12/fetch-data-challange/compare/v0.1.4...v0.1.7) (2024-01-28)
+
+
+### Features
+
+* **style:** Improve UI/UX ([c85ed1b](https://github.com/ptech12/fetch-data-challange/commit/c85ed1bbdadaeb5ea8756f0273a5cd9b9d9bb9b4))
+
 ### [0.1.6](https://github.com/ptech12/fetch-data-challange/compare/v0.1.5...v0.1.6) (2024-01-28)
 
 ### [0.1.5](https://github.com/ptech12/fetch-data-challange/compare/v0.1.4...v0.1.5) (2024-01-28)
