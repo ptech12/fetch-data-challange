@@ -8,7 +8,6 @@ body{
 }
 form{
   width: 100%;
-  margin-bottom: 10px;
   position: fixed;
 
 }
@@ -22,6 +21,11 @@ li{
 button{
   width: 33.33%;
   font-size: 1rem;
+}
+
+button:hover{
+  background-color: #000;
+  color: #ddd;
 }
 
 button.selected{
