@@ -20,7 +20,12 @@ li{
 }
 button{
   width: 33.33%;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  transition: background-color .2s ease;
+  background-color: #eee;
+  border: none;
+  margin-top: 10px;
+  padding: .2rem;
 }
 
 button:hover{
