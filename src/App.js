@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Form from "./components/Form";
 import List from "./components/List";
+import Table from "./components/Table";
 
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
   return (
     <div className="App">
       <Form req={req} setReq={setReq}/>
-      <List data={data} />
+      <Table data={data} />
 
     </div>
   );
