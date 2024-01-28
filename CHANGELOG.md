@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://github.com/ptech12/fetch-data-challange/compare/v0.1.3...v0.1.4) (2024-01-28)
+
+
+### Features
+
+* **api:** add List and ListItems to form.js which displays the object ([83b0060](https://github.com/ptech12/fetch-data-challange/commit/83b0060a35274ecdf4232d898291b249a64842cb))
+
 ### [0.1.3](https://github.com/ptech12/fetch-data-challange/compare/v0.1.2...v0.1.3) (2024-01-28)
 
 
