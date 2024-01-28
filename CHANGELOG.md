@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## [](https://github.com/ptech12/fetch-data-challange/compare/v0.2.0...v) (2024-01-28)
+### [0.2.1](https://github.com/ptech12/fetch-data-challange/compare/v0.2.0...v0.2.1) (2024-01-28)
 
 
 ### ⚠ BREAKING CHANGES
