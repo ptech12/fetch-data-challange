@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [](https://github.com/ptech12/fetch-data-challange/compare/v0.2.0...v) (2024-01-28)
+
+
+### Features
+
+* **style:** Some minor table style adjustments ([c0881b8](https://github.com/ptech12/fetch-data-challange/commit/c0881b8a256963a2db99bd1221e2b858c0c0048a)), closes [#0](https://github.com/ptech12/fetch-data-challange/issues/0)
+
 ## [0.2.0](https://github.com/ptech12/fetch-data-challange/compare/v0.1.7...v0.2.0) (2024-01-28)
 
 
