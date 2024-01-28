@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-.buttons{
+form{
   display: flex;
   /* width: 100px; */
   justify-content: center;
@@ -13,7 +13,7 @@
   margin-bottom: 10px;
 }
 
-.buttons button{
+button{
   flex: 1;
   height: 40px;
   font-size: 1.2rem;
@@ -21,8 +21,8 @@
   border-bottom: none;
 }
 
-.buttons button:hover,
-.buttons button:focus{
+.selected:hover,
+.selected:focus{
   background-color: #000;
   color: #eee;
 }
