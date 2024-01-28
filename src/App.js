@@ -1,73 +1,33 @@
 import { useState, useEffect } from "react";
-import DisplayOutput from "./components/DisplayOutput";
+import Form from "./components/Form";
+
 
 
 function App() {
-  const BASE_URL = 'https://jsonplaceholder.typicode.com'
-  const [data, setData] = useState('users');
-  const [resp, setResp] = useState([])
+  const BASE_URL = 'https://jsonplaceholder.typicode.com/'
+  const [req, setReq] = useState('users');
+  const [data, setData] = useState([])
   // console.log(data);
 
   useEffect(() => {
-    console.log(data);
-    // const fetchData = '';
-    if(data === 'users'){
-       const fetchData = async () => {
-        try{
-          const response = await fetch(`${BASE_URL}/${data}`);
-          if(!response.ok) throw Error('Facing some Error');
-
-          const listData = await response.json();
-
-          setResp(listData);
-          console.log(listData);
-        } catch (err){
-          setResp(err.message);
-        }
+    const fetchData = async () => {
+      try{
+        const response = await fetch(`${BASE_URL}${req}`);
+        const responseData = await response.json();
+        setData(responseData)
+      }catch (err){
+        console.log(err);
       }
-      (async () => await fetchData())();
-    }else if (data === 'posts'){
-      const fetchData = async () => {
-        try{
-          const response = await fetch(BASE_URL + data);
-          if(!response.ok) throw Error('Facing some Error');
-
-          const listData = await response.json();
-
-          setResp(listData);
-          console.log(listData);
-        } catch (err){
-          setResp(err.message);
-        }
-      }
-      (async () => await fetchData())();
     }
+    fetchData();
 
-    setResp([])
-
-
-  }, [])
+  }, [req])
   
 
   return (
     <div className="App">
-      <div className="buttons">
-        <button onClick={() => setData('users')} >
-          users
-        </button>
-        <button onClick={() => setData('posts')}>
-          posts
-        </button>
-        <button onClick={() => setData('comments')}>
-          comments
-        </button>
-      </div>
-      {
-        resp.map(item => {
-          console.log(item);
-          <p>{item}</p>
-        })
-      }
+      <Form req={req} setReq={setReq}/>
+
     </div>
   );
 }
