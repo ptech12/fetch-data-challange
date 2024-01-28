@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/ptech12/fetch-data-challange/compare/v0.1.2...v0.1.3) (2024-01-28)
+
+
+### Features
+
+* Use various props drilling to transfer data from component to components ([86f0072](https://github.com/ptech12/fetch-data-challange/commit/86f0072530c91d23942f318a65e24ee6d525d782))
+
+
+### Bug Fixes
+
+* component changes ([ed65b14](https://github.com/ptech12/fetch-data-challange/commit/ed65b144d38962c8c4de0843986252fcf519dbd3))
+
 ### [0.1.2](https://github.com/ptech12/fetch-data-challange/compare/v0.1.1...v0.1.2) (2024-01-27)
 
 
